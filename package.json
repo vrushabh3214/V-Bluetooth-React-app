@@ -20,7 +20,7 @@
     "predeploy": "serve -s build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build && mkdir -p /opt/build/repo/V-Bluetooth-React-app && mv build /opt/build/repo/V-Bluetooth-React-app",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
